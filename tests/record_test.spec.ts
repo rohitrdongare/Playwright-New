@@ -37,12 +37,7 @@ test('test with Steps to show in report', async ({ page }) => {
   })
 
 
-  await 
-  
-  
-  
-  
-  test.step(' validate error Message', async () => {
+  await test.step(' validate error Message', async () => {
     await expect(page.getByRole('alert')).toContainText('Incorrect username or password.');
   })
 
