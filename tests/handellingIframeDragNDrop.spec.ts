@@ -1,5 +1,5 @@
 import {test} from '@playwright/test'
-test('Handelling DropDown',async({page})=>{
+test('Handelling Iframes',async({page})=>{
     await page.goto('https://jqueryui.com/droppable/');
 
     const iframe=page.frameLocator('.demo-frame');
